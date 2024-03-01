@@ -70,7 +70,7 @@ def clear():
         print(logo)
 
 ##------------(LOGO)------------##
-os.system('xdg-open https://www.facebook.com/profile.php?id=100054925285605')
+os.system('xdg-open https://www.facebook.com/ahm.habib.39')
 
 logo=(f"""{A}
 
