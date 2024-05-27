@@ -25,6 +25,7 @@ Clone facebook ids
   pip install mechanize 
   pip install httpx 
   git clone https://github.com/ahmhabib01/Facebook-cloner
+  cd Facebook-cloner 
   python fbcloner.py
 ```
     
